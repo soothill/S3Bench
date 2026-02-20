@@ -1,3 +1,7 @@
+// Copyright (c) 2026 Darren Soothill <darren [at] soothill [dot] com>
+// All rights reserved.
+// Use of this source code is governed by the MIT License.
+
 package main
 
 import (
