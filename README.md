@@ -1,5 +1,11 @@
 # s3bench
 
+**Author:** Darren Soothill — darren [at] soothill [dot] com
+**Copyright:** &copy; 2026 Darren Soothill. All rights reserved.
+**Licence:** MIT
+
+---
+
 A command-line tool for benchmarking download throughput from AWS S3 and S3-compatible storage (MinIO, Ceph, etc.).
 
 It downloads a single large object by splitting it into configurable byte-range chunks and fetching them concurrently, then reports detailed throughput and latency statistics. A concurrency sweep mode runs the benchmark at multiple concurrency levels automatically and produces a comparison report.
