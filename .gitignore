@@ -1,0 +1,5 @@
+# Compiled binary
+s3bench
+
+# Claude Code local files
+.claude/
